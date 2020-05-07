@@ -1,3 +1,157 @@
 {
-  "posts": "asdf"
+  "accounts": [
+    {
+      "id": 1,
+      "name": "EUR Current",
+      "accountNumber": "xxxx-xxxx-xxxx-3451",
+      "amount": 1255.5,
+      "currency": "€",
+      "isMain": true,
+      "transactions": []
+    },
+    {
+      "id": 2,
+      "name": "USD Current",
+      "accountNumber": "xxxx-xxxx-xxxx-6512",
+      "amount": 3555,
+      "currency": "$",
+      "isMain": false,
+      "transactions": [
+        {
+          "name": "ApiPAY 7-Eleven",
+          "description": "Cresskill NJ",
+          "amount": 236.52
+        },
+        {
+          "name": "Lencraftters",
+          "description": "Paramus NJ",
+          "amount": 240.27
+        },
+        {
+          "name": "7-Eleven",
+          "description": "Time Square NYC",
+          "amount": 32.02
+        },
+        {
+          "name": "Macys",
+          "description": "Macys Washington DC",
+          "amount": 100.02
+        },
+        {
+          "name": "Dunkin Donuts",
+          "description": "Washington DC",
+          "amount": 15.02
+        },
+        {
+          "name": "McDonalds",
+          "description": "Arlington",
+          "amount": 16.56
+        },
+        {
+          "name": "BestBuy",
+          "description": "California",
+          "amount": 358.02
+        },
+        {
+          "name": "Subway",
+          "description": "NYC",
+          "amount": 10.54
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "GBP Current",
+      "accountNumber": "xxxx-xxxx-xxxx-5312",
+      "amount": 14124.5,
+      "currency": "£",
+      "isMain": false,
+      "transactions": [
+        {
+          "name": "Pennys",
+          "description": "Cresskill NJ",
+          "amount": 236.52
+        },
+        {
+          "name": "Subway",
+          "description": "Paramus NJ",
+          "amount": 240.27
+        },
+        {
+          "name": "Tesco",
+          "description": "Time Square NYC",
+          "amount": 32.02
+        },
+        {
+          "name": "Lidl",
+          "description": "Macys Washington DC",
+          "amount": 100.02
+        },
+        {
+          "name": "Aldi",
+          "description": "Washington DC",
+          "amount": 15.02
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "USD Savings",
+      "accountNumber": "xxxx-xxxx-xxxx-5312",
+      "amount": 10502.5,
+      "currency": "$",
+      "isMain": false,
+      "transactions": [
+        {
+          "name": "Kaufland",
+          "description": "Cresskill NJ",
+          "amount": 236.52
+        },
+        {
+          "name": "Tesco",
+          "description": "Paramus NJ",
+          "amount": 240.27
+        },
+        {
+          "name": "Pepcop",
+          "description": "Time Square NYC",
+          "amount": 32.02
+        },
+        {
+          "name": "Subway",
+          "description": "Macys Washington DC",
+          "amount": 100.02
+        },
+        {
+          "name": "Lidl",
+          "description": "Washington DC",
+          "amount": 15.02
+        },
+        {
+          "name": "McDonalds",
+          "description": "Arlington",
+          "amount": 16.56
+        },
+        {
+          "name": "Technopolis",
+          "description": "California",
+          "amount": 358.02
+        },
+        {
+          "name": "Zora",
+          "description": "NYC",
+          "amount": 10.54
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "EUR Savings",
+      "accountNumber": "xxxx-xxxx-xxxx-5312",
+      "amount": 281.74,
+      "currency": "€",
+      "isMain": false,
+      "transactions": []
+    }
+  ]
 }
