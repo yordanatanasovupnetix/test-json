@@ -1,1 +1,3 @@
-{ "posts": ["asdf", "asdf2"]}
+{
+  "posts": "asdf"
+}
